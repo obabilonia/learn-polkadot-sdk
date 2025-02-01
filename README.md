@@ -1,20 +1,24 @@
 # learn-polkadot-sdk
 
 
-o minimal template foi insalado seguindo o repositorio https://github.com/paritytech/polkadot-sdk-minimal-template
+O minimal template foi insalado seguindo o repositório https://github.com/paritytech/polkadot-sdk-minimal-template
 
-para extrair os metadados do nodo local e da rede de polkadot:
+Para extrair os metadados do nodo local e da rede de polkadot:
  subxt metadata --url="wss:///127.0.0.1:9933" -f bytes > polkadot_metadata.scale
  subxt metadata --url="wss://rpc.polkadot.io:443" -f bytes > polkadot_metadata.scale
 
 
 
-uma seria de exemplos de como utilizar subxt https://github.com/paritytech/subxt/tree/ddb5d4c9d7de07f9d02a832c4264b1a32e39eaf4/subxt/examples
+Uma serie de exemplos de como utilizar subxt:
+ https://github.com/paritytech/subxt/tree/ddb5d4c9d7de07f9d02a832c4264b1a32e39eaf4/subxt/examples
 
-tutorial basico do Karin https://forum.polkadot.network/t/getting-started-using-rust-and-subxt-for-polkadot-data-extraction/7652
+Tutorial basico do Karin:
+ https://forum.polkadot.network/t/getting-started-using-rust-and-subxt-for-polkadot-data-extraction/7652
 
-detalhes sobre extrinsics e eventos https://wiki.polkadot.network/docs/build-protocol-info#extrinsics-and-events
+Detalhes sobre extrinsics e eventos:
+ https://wiki.polkadot.network/docs/build-protocol-info#extrinsics-and-events
 
-especificação das mensagens da cadeia https://spec.polkadot.network/chap-networking#sect-msg-block-announce
+Especificação das mensagens da cadeia:
+ https://spec.polkadot.network/chap-networking#sect-msg-block-announce
 
 
