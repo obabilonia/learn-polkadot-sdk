@@ -1,10 +1,10 @@
 # learn-polkadot-sdk
 
 
-#### O minimal template foi insalado seguindo o repositório:
+**O minimal template foi insalado seguindo o repositório**:
 <br> https://github.com/paritytech/polkadot-sdk-minimal-template
 
-#### Pasos para compilar e executar o minimal-node:
+**Pasos para compilar e executar o minimal-node**:
 <br> git clone https://github.com/paritytech/polkadot-sdk-minimal-template.git
 <br> cd polkadot-sdk-minimal-template/
 <br> sudo apt update
@@ -21,24 +21,24 @@
 <br> cargo build --release
 <br> ./target/release/minimal-template-node --dev --rpc-port 9933
 
-#### Para extrair os metadados do nodo local e da rede de polkadot:
+**Para extrair os metadados do nodo local e da rede de polkadot**:
 <br> subxt metadata --url="wss:///127.0.0.1:9933" -f bytes > polkadot_metadata.scale
 <br> subxt metadata --url="wss://rpc.polkadot.io:443" -f bytes > polkadot_metadata.scale
 
 
-#### Uma serie de exemplos de como utilizar subxt:
+**Uma serie de exemplos de como utilizar subxt**:
 <br> https://github.com/paritytech/subxt/tree/ddb5d4c9d7de07f9d02a832c4264b1a32e39eaf4/subxt/examples
 
 
-#### Tutorial basico do Karin:
+**Tutorial basico do Karin**:
 <br> https://forum.polkadot.network/t/getting-started-using-rust-and-subxt-for-polkadot-data-extraction/7652
 
 
-#### Detalhes sobre extrinsics e eventos:
+**Detalhes sobre extrinsics e eventos**:
 <br> https://wiki.polkadot.network/docs/build-protocol-info#extrinsics-and-events
 
 
-#### Especificação das mensagens da cadeia:
+**Especificação das mensagens da cadeia**:
 <br> https://spec.polkadot.network/chap-networking#sect-msg-block-announce
 
 
