@@ -4,6 +4,26 @@
 O minimal template foi insalado seguindo o repositório:
 <br> https://github.com/paritytech/polkadot-sdk-minimal-template
 
+Pasos para compilar e executar o minimal-node:
+<br> git clone https://github.com/paritytech/polkadot-sdk-minimal-template.git
+<br> cd polkadot-sdk-minimal-template/
+<br> sudo apt update
+<br> sudo apt upgrade -y
+<br> cargo update
+<br> rustp update
+<br> apt-get install protobuf-compiler
+<br> sudo apt-get install protobuf-compiler
+<br> sudo apt install -y clang cmake make gcc g++ libstdc++-dev librocksdb-dev pkg-config
+<br> gcc --version
+<br> sudo apt install libstdc++-11-dev
+<br> sudo apt autoremove
+<br> sudo apt install libstdc++-11-dev
+<br> sudo apt install -y clang cmake make gcc g++ pkg-config libssl-dev zlib1g-dev libbz2-dev liblz4-dev libsnappy-dev librocksdb-dev
+<br> cargo build --release
+<br> ./target/release/minimal-template-node --dev --rpc-port 9933
+
+
+
 
 Para extrair os metadados do nodo local e da rede de polkadot:
 <br> subxt metadata --url="wss:///127.0.0.1:9933" -f bytes > polkadot_metadata.scale
