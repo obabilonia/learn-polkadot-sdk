@@ -11,7 +11,6 @@ Pasos para compilar e executar o minimal-node:
 <br> sudo apt upgrade -y
 <br> cargo update
 <br> rustp update
-<br> apt-get install protobuf-compiler
 <br> sudo apt-get install protobuf-compiler
 <br> sudo apt install -y clang cmake make gcc g++ libstdc++-dev librocksdb-dev pkg-config
 <br> gcc --version
