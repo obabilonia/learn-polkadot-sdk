@@ -766,6 +766,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "escuta-nodo"
+version = "0.1.0"
+dependencies = [
+ "futures",
+ "parity-scale-codec",
+ "subxt",
+ "subxt-signer",
+ "tokio",
+]
+
+[[package]]
 name = "event-listener"
 version = "4.0.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1863,17 +1874,6 @@ dependencies = [
  "atomic-waker",
  "fastrand",
  "futures-io",
-]
-
-[[package]]
-name = "polkadot-cli"
-version = "0.1.0"
-dependencies = [
- "futures",
- "parity-scale-codec",
- "subxt",
- "subxt-signer",
- "tokio",
 ]
 
 [[package]]
