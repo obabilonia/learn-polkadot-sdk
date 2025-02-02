@@ -1,7 +1,7 @@
 # learn-polkadot-sdk
 
 
-**O minimal template foi insalado seguindo o repositório**:
+**O minimal template foi instalado seguindo o repositório**:
 <br> https://github.com/paritytech/polkadot-sdk-minimal-template
 
 **Pasos para compilar e executar o minimal-node**:
