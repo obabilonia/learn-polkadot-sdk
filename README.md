@@ -21,6 +21,9 @@
 <br> cargo build --release
 <br> ./target/release/minimal-template-node --dev --rpc-port 9933
 
+**Repositorio de instalação do parachai-template:**:
+<br>https://github.com/paritytech/polkadot-sdk-parachain-template
+
 **Para extrair os metadados do nodo local e da rede de polkadot**:
 <br> subxt metadata --url="wss:///127.0.0.1:9933" -f bytes > polkadot_metadata.scale
 <br> subxt metadata --url="wss://rpc.polkadot.io:443" -f bytes > polkadot_metadata.scale
