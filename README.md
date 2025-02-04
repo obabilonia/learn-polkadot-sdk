@@ -45,3 +45,5 @@
 <br> https://spec.polkadot.network/chap-networking#sect-msg-block-announce
 
 
+**Link para entender sobre Zombienet**:
+https://github.com/paritytech/zombienet
