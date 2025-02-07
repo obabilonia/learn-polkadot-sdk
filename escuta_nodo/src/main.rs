@@ -2,7 +2,7 @@ use subxt::{OnlineClient, PolkadotConfig};
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let api = OnlineClient::<PolkadotConfig>::from_url("ws://127.0.0.1:9933").await?;
+    let api = OnlineClient::<PolkadotConfig>::from_url("ws://127.0.0.1:9944").await?;
     let mut blocks_sub = api.blocks().subscribe_finalized().await?;
     
     while let Some(block) = blocks_sub.next().await {
